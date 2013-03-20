@@ -18,9 +18,12 @@ public:
 private slots:
     void on_findButton_clicked();
 
+    void on_lineEdit_returnPressed();
+
 private:
     Ui::TextFinder *ui;
     void loadTextFile();
+    void findKeyword();
 };
 
 #endif // TEXTFINDER_H
