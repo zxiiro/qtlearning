@@ -1,0 +1,5 @@
+# Qt generated
+*.pro.user
+
+# OS generated
+*~
